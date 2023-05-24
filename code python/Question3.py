@@ -24,6 +24,6 @@ score1=str(score)
 result= [name,"  ",score1]
 print(result)
 w=open("d:\\result.txt","w")
-w.writelines(result'\n')
+w.writelines(result)
 w.close()
         
